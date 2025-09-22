@@ -7,7 +7,7 @@ import Home from "./src/screens/Home/Home";
 export default function App() {
   return (
     <ImageBackground
-      source={require("../../../Desafios/test-generation-pass/test-generation-pass/assets/background.jpg")} // caminho da imagem
+      source={require("../../Desafios/gerador-senhas/assets/background.jpg")} // caminho da imagem
       style={styles.background}
       resizeMode="cover"
     >
